@@ -1,4 +1,8 @@
 import string
 
+
 def create_shift_substitutions(n):
-	pass
+	encoding = {}
+	decoding = {}
+
+	alphabet_size = len(string.ascii_uppercase)
