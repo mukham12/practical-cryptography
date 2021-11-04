@@ -11,3 +11,6 @@ def create_shift_substitutions(n):
 		letter = string.ascii_uppercase[i]
 		subst_letter = string.ascii_uppercase[(i + n) % alphabet_size]
 
+		encoding[letter] = subst_letter
+		decoding[subst_letter] = letter
+		
