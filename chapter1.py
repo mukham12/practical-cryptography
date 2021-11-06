@@ -15,3 +15,7 @@ def create_shift_substitutions(n):
 		decoding[subst_letter] = letter
 
 	return encoding, decoding
+
+
+def encode(message, subst):
+	pass
