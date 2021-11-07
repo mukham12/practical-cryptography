@@ -18,4 +18,5 @@ def create_shift_substitutions(n):
 
 
 def encode(message, subst):
-	pass
+	cipher = ''
+
