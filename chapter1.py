@@ -19,4 +19,9 @@ def create_shift_substitutions(n):
 
 def encode(message, subst):
 	cipher = ''
+	for letter in message:
+		if letter in subst:
+			cipher += subst[letter]
+		else:
+			cipher += letter
 
