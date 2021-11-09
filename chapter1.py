@@ -25,3 +25,4 @@ def encode(message, subst):
 		else:
 			cipher += letter
 
+	return cipher
