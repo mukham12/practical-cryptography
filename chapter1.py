@@ -26,3 +26,5 @@ def encode(message, subst):
 			cipher += letter
 
 	return cipher
+
+def decode(message, subst):
