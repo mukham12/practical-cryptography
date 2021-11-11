@@ -28,3 +28,4 @@ def encode(message, subst):
 	return cipher
 
 def decode(message, subst):
+    return encode(message, subst)
