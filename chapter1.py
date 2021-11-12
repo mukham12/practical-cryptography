@@ -29,3 +29,6 @@ def encode(message, subst):
 
 def decode(message, subst):
     return encode(message, subst)
+
+def printable_subst(subst):
+    pass
