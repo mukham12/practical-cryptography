@@ -1,4 +1,4 @@
-import string
+Хimport string
 
 
 def create_shift_substitutions(n):
@@ -32,3 +32,4 @@ def decode(message, subst):
 
 def printable_subst(subst):
     mapping = sorted(subst.items())
+    alphabet_line = " ".join(letter for letter, _ in mapping)
