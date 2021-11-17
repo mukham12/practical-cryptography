@@ -34,3 +34,4 @@ def printable_subst(subst):
     mapping = sorted(subst.items())
     alphabet_line = " ".join(letter for letter, _ in mapping)
     cipher_line = " ".join(subst_letter for _, subst_letter in mapping)
+    return f'{alphabet_line}\n{cipher_line}'
