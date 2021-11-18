@@ -35,3 +35,6 @@ def printable_subst(subst):
     alphabet_line = " ".join(letter for letter, _ in mapping)
     cipher_line = " ".join(subst_letter for _, subst_letter in mapping)
     return f'{alphabet_line}\n{cipher_line}'
+
+if __name__ == 'main':
+    pass
