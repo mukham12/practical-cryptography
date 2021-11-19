@@ -37,4 +37,5 @@ def printable_subst(subst):
     return f'{alphabet_line}\n{cipher_line}'
 
 if __name__ == 'main':
-    pass
+    n = 1
+  
