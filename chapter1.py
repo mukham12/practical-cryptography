@@ -39,3 +39,5 @@ def printable_subst(subst):
 if __name__ == 'main':
     n = 1
     encoding, decoding = create_shift_substitutions(n)
+    while True:
+        pass
