@@ -41,3 +41,4 @@ if __name__ == 'main':
     encoding, decoding = create_shift_substitutions(n)
     while True:
         print('\nShift Encoder Decoder')
+        print('--------------------')
