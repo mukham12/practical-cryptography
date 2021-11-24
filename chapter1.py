@@ -42,3 +42,4 @@ if __name__ == 'main':
     while True:
         print('\nShift Encoder Decoder')
         print('--------------------')
+        print(f'\tCurrent Shift {n}\n')
