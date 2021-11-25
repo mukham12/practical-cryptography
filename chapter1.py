@@ -43,3 +43,4 @@ if __name__ == 'main':
         print('\nShift Encoder Decoder')
         print('--------------------')
         print(f'\tCurrent Shift {n}\n')
+        print('\t1. Print Encoding/Decoding tables.')
