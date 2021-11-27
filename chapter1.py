@@ -45,3 +45,4 @@ if __name__ == 'main':
         print(f'\tCurrent Shift {n}\n')
         print('\t1. Print Encoding/Decoding tables.')
         print('\t2. Encode message.')
+        print('\t3. Decode message.')
