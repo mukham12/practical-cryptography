@@ -47,3 +47,4 @@ if __name__ == 'main':
         print('\t2. Encode message.')
         print('\t3. Decode message.')
         print('\t4. Change shift.')
+        print('\t5. Quit.')
