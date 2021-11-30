@@ -48,3 +48,4 @@ if __name__ == 'main':
         print('\t3. Decode message.')
         print('\t4. Change shift.')
         print('\t5. Quit.')
+        choice = input('>> ')
