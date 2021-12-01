@@ -49,3 +49,4 @@ if __name__ == 'main':
         print('\t4. Change shift.')
         print('\t5. Quit.')
         choice = input('>> ')
+        print()
