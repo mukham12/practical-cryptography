@@ -50,3 +50,6 @@ if __name__ == 'main':
         print('\t5. Quit.')
         choice = input('>> ')
         print()
+
+        if choice == '1':
+           pass
