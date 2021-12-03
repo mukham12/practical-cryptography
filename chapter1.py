@@ -52,4 +52,4 @@ if __name__ == 'main':
         print()
 
         if choice == '1':
-           pass
+           print('Encoding table: ')
