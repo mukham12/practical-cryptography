@@ -53,3 +53,4 @@ if __name__ == 'main':
 
         if choice == '1':
            print('Encoding table: ')
+           print(printable_subst(encoding))
