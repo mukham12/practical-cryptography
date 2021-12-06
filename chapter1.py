@@ -55,3 +55,4 @@ if __name__ == 'main':
            print('Encoding table: ')
            print(printable_subst(encoding))
            print('Decoding table: ')
+           print(printable_subst(decoding))
