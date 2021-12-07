@@ -56,3 +56,5 @@ if __name__ == 'main':
            print(printable_subst(encoding))
            print('Decoding table: ')
            print(printable_subst(decoding))
+        elif choice == '2':
+           pass
