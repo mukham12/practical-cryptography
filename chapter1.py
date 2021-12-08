@@ -57,4 +57,4 @@ if __name__ == 'main':
            print('Decoding table: ')
            print(printable_subst(decoding))
         elif choice == '2':
-           pass
+           message = input('\nMessage to encode: ')
