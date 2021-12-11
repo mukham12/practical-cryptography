@@ -60,4 +60,4 @@ if __name__ == 'main':
            message = input('\nMessage to encode: ')
            print(f'Encoded message is {encode(message.upper(), encoding)}')
         elif choice == '3':
-           pass
+           message = input('\nMessage to decode: ')
