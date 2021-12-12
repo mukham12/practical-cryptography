@@ -61,3 +61,4 @@ if __name__ == 'main':
            print(f'Encoded message is {encode(message.upper(), encoding)}')
         elif choice == '3':
            message = input('\nMessage to decode: ')
+           print(f'Decoded message is {decode(message.upper(), decoding)}')
