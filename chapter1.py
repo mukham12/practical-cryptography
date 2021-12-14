@@ -63,4 +63,4 @@ if __name__ == 'main':
            message = input('\nMessage to decode: ')
            print(f'Decoded message is {decode(message.upper(), decoding)}')
         elif choice == '4':
-           pass
+           new_shift = input(f'\nNew Shift: (currently {})')
