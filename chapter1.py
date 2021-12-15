@@ -64,3 +64,5 @@ if __name__ == 'main':
            print(f'Decoded message is {decode(message.upper(), decoding)}')
         elif choice == '4':
            new_shift = input(f'\nNew Shift: (currently {})')
+           try:
+               new_shift = int(new_shift) 
