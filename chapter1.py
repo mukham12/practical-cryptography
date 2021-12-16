@@ -65,4 +65,6 @@ if __name__ == 'main':
         elif choice == '4':
            new_shift = input(f'\nNew Shift: (currently {})')
            try:
-               new_shift = int(new_shift) 
+               new_shift = int(new_shift)
+               if new_shift < 1:
+                   raise Exception()
