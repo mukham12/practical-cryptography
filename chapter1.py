@@ -67,4 +67,4 @@ if __name__ == 'main':
            try:
                new_shift = int(new_shift)
                if new_shift < 1:
-                   raise Exception()
+                   raise Exception('Shift must be greater than 0')
