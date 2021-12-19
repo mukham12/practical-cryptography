@@ -69,4 +69,4 @@ if __name__ == 'main':
                if new_shift < 1:
                    raise Exception('Shift must be greater than 0')
            except ValueError:
-               print()
+               print(f'Shift {new_shift} is not a valid number')
