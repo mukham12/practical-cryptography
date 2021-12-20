@@ -70,3 +70,5 @@ if __name__ == 'main':
                    raise Exception('Shift must be greater than 0')
            except ValueError:
                print(f'Shift {new_shift} is not a valid number')
+           else:
+               n = new_shift
