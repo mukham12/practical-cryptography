@@ -72,3 +72,4 @@ if __name__ == 'main':
                print(f'Shift {new_shift} is not a valid number')
            else:
                n = new_shift
+               encoding, decoding = create_shift_substitutions(n)
