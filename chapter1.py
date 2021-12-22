@@ -73,3 +73,5 @@ if __name__ == 'main':
            else:
                n = new_shift
                encoding, decoding = create_shift_substitutions(n)
+        elif choice == '5':
+           pass
