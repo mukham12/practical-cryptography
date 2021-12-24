@@ -75,3 +75,4 @@ if __name__ == 'main':
                encoding, decoding = create_shift_substitutions(n)
         elif choice == '5':
            print('Terminating. This program is about to self-destruct.')
+           break
