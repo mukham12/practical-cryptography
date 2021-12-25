@@ -76,3 +76,6 @@ if __name__ == 'main':
         elif choice == '5':
            print('Terminating. This program is about to self-destruct.')
            break
+
+        else:
+           print()
