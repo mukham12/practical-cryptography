@@ -78,4 +78,4 @@ if __name__ == 'main':
            break
 
         else:
-           print()
+           print(f'Unknown option {choice}.')
