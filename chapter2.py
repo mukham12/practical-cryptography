@@ -16,3 +16,5 @@ md5hasher.update(b'i')
 md5hasher.update(b'c')
 md5hasher.update(b'e')
 md5hasher.hexdigest()
+
+# Learning SHA-1 hash function
