@@ -19,3 +19,4 @@ md5hasher.hexdigest()
 
 # Learning SHA-1 hash function
 hashlib.sha1(b'alice').hexdigest()
+hashlib.sha1(b'bob').hexdigest()
