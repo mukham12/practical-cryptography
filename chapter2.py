@@ -23,3 +23,4 @@ hashlib.sha1(b'bob').hexdigest()
 
 # Learning SHA-256 hash function 
 hashlib.sha256(b'alice').hexdigest()
+hashlib.sha256(b'bob').hexdigest()
