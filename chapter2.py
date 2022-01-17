@@ -1,4 +1,5 @@
 import hashlib
+import os
 
 md5hasher = hashlib.md5()
 md5hasher.hexdigest()
@@ -24,3 +25,4 @@ hashlib.sha1(b'bob').hexdigest()
 # Learning SHA-256 hash function 
 hashlib.sha256(b'alice').hexdigest()
 hashlib.sha256(b'bob').hexdigest()
+
