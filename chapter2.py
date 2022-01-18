@@ -1,5 +1,6 @@
 import hashlib
 import os
+from cryptography.hazmat.primitives.kdf.scrypt import Scrypt
 
 md5hasher = hashlib.md5()
 md5hasher.hexdigest()
