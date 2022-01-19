@@ -1,6 +1,7 @@
 import hashlib
 import os
 from cryptography.hazmat.primitives.kdf.scrypt import Scrypt
+from cryptography.hazmat.backends import default_backend
 
 md5hasher = hashlib.md5()
 md5hasher.hexdigest()
