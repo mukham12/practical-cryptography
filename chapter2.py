@@ -28,3 +28,4 @@ hashlib.sha1(b'bob').hexdigest()
 hashlib.sha256(b'alice').hexdigest()
 hashlib.sha256(b'bob').hexdigest()
 
+# Learning Scrypt
