@@ -29,3 +29,4 @@ hashlib.sha256(b'alice').hexdigest()
 hashlib.sha256(b'bob').hexdigest()
 
 # Learning Scrypt
+salt = os.urandom(16)
