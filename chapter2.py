@@ -31,4 +31,4 @@ hashlib.sha256(b'bob').hexdigest()
 # Learning Scrypt
 salt = os.urandom(16)
 
-kdf = Scrypt(salt = salt, length = 32)
+kdf = Scrypt(salt = salt, length = 32, n = 2**14)
