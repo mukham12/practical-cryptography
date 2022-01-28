@@ -32,4 +32,4 @@ hashlib.sha256(b'bob').hexdigest()
 salt = os.urandom(16)
 
 kdf = Scrypt(salt = salt, length = 32,
-             n = 2**14, r=8,)
+             n = 2**14, r=8, p=1,)
