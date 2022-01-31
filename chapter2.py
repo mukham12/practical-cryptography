@@ -35,4 +35,4 @@ kdf = Scrypt(salt = salt, length = 32,
              n = 2**14, r=8, p=1,
              backend=default_backend())
 
-key = kdf.derive(b'')
+key = kdf.derive(b'some password')
