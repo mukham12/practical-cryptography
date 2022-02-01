@@ -36,3 +36,5 @@ kdf = Scrypt(salt = salt, length = 32,
              backend=default_backend())
 
 key = kdf.derive(b'some password')
+
+# Verifying the key
