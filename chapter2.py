@@ -39,3 +39,4 @@ key = kdf.derive(b'some password')
 
 # Verifying the key
 kdf.verify(b'some password', key)
+print('Success!')
