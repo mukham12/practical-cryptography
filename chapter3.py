@@ -1,5 +1,4 @@
 # Learning about symmetric encryption
-import os
 
 # Never use ECB mode, it is not secure
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
