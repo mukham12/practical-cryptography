@@ -6,4 +6,5 @@ from cryptography.hazmat.backends import default_backend
 import os
 
 key = os.urandom(16)
-aesCipher = Cipher(algorithms.AES(key),)
+aesCipher = Cipher(algorithms.AES(key),
+                   modes.ECB(),)
