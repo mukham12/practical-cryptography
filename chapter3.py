@@ -7,4 +7,5 @@ import os
 
 key = os.urandom(16)
 aesCipher = Cipher(algorithms.AES(key),
-                   modes.ECB(),)
+                   modes.ECB(),
+                   backend=default_backend())
