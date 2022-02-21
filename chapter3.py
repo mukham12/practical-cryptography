@@ -9,3 +9,5 @@ key = os.urandom(16)
 aesCipher = Cipher(algorithms.AES(key),
                    modes.ECB(),
                    backend=default_backend())
+
+aesEncryptor = aesCipher.encryptor()
