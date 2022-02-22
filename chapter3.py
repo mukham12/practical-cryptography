@@ -11,3 +11,4 @@ aesCipher = Cipher(algorithms.AES(key),
                    backend=default_backend())
 
 aesEncryptor = aesCipher.encryptor()
+aesDecryptor = aesCipher.decryptor()
