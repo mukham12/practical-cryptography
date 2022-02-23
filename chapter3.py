@@ -12,3 +12,5 @@ aesCipher = Cipher(algorithms.AES(key),
 
 aesEncryptor = aesCipher.encryptor()
 aesDecryptor = aesCipher.decryptor()
+
+aesEncryptor.update(b'alice')
