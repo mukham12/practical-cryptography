@@ -15,3 +15,4 @@ aesDecryptor = aesCipher.decryptor()
 
 aesEncryptor.update(b'alice')
 aesEncryptor.update(b'bob')
+aesEncryptor.update(b'bob')
