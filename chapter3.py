@@ -13,7 +13,10 @@ aesCipher = Cipher(algorithms.AES(key),
 aesEncryptor = aesCipher.encryptor()
 aesDecryptor = aesCipher.decryptor()
 
+
 aesEncryptor.update(b'alice')
+
+#AES operates only on 16 bytes
 aesEncryptor.update(b'bob')
 aesEncryptor.update(b'bob')
 aesEncryptor.update(b'bob')
