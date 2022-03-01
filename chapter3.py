@@ -22,3 +22,5 @@ aesEncryptor.update(b'bob')
 aesEncryptor.update(b'bob')
 
 aesDecryptor.update(_)
+
+# NIST KATS (known answer tests)
