@@ -24,3 +24,5 @@ aesEncryptor.update(b'bob')
 aesDecryptor.update(_)
 
 # NIST KATS (known answer tests)
+# First value of each pair is plaintext
+
