@@ -21,8 +21,6 @@ aesEncryptor.update(b'bob')
 aesEncryptor.update(b'bob')
 aesEncryptor.update(b'bob')
 
-aesDecryptor.update(_)
-
 # NIST KATS (known answer tests)
 # First value of each pair is plaintext
 # Second value of each pair is ciphertext 
