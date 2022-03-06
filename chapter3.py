@@ -15,11 +15,6 @@ aesDecryptor = aesCipher.decryptor()
 
 aesEncryptor.update(b'alice')
 
-#AES operates only on 16 bytes
-aesEncryptor.update(b'bob')
-aesEncryptor.update(b'bob')
-aesEncryptor.update(b'bob')
-
 # NIST KATS (known answer tests)
 # First value of each pair is plaintext
 # Second value of each pair is ciphertext 
