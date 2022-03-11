@@ -9,6 +9,3 @@ aesCipher = Cipher(algorithms.AES(key),
 
 aesEncryptor = aesCipher.encryptor()
 aesDecryptor = aesCipher.decryptor()
-
-
-# NIST KATS (known answer tests)
