@@ -15,4 +15,7 @@ nist_kats = [('f34481ec3cc627bacd5dc3fb08f273e6',
              ('9798c4640bad75c7c3227db910174e72',
               'a9a1631bf4996954ebc093957b234589'),
              ('96ab5c2ff612d9dfaae8c31f30c42168',
-              'ff4f8391a6a40ca5b25d23bedd44a597'),]
+              'ff4f8391a6a40ca5b25d23bedd44a597'),
+             ('6a118a874519e64e9963798a503f1d35 ',
+              'dc43be40be0e53712f7e2bf5ca707209')
+            ]
