@@ -19,3 +19,5 @@ nist_kats = [('f34481ec3cc627bacd5dc3fb08f273e6',
              ('6a118a874519e64e9963798a503f1d35 ',
               'dc43be40be0e53712f7e2bf5ca707209')
             ]
+
+# 16-byte key of all zeroes
