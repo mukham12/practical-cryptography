@@ -20,4 +20,5 @@ nist_kats = [('f34481ec3cc627bacd5dc3fb08f273e6',
 # 16-byte key of all zeroes
 test_key = bytes.fromhex('00000000000000000000000000000000')
 
-aesCipher = Cipher()
+aesCipher = Cipher(algorithms.AES(test_key),
+                   )
