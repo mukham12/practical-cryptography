@@ -21,4 +21,5 @@ nist_kats = [('f34481ec3cc627bacd5dc3fb08f273e6',
 test_key = bytes.fromhex('00000000000000000000000000000000')
 
 aesCipher = Cipher(algorithms.AES(test_key),
-                   )
+                   modes.ECB(),
+                  )
