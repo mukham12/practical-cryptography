@@ -22,4 +22,4 @@ test_key = bytes.fromhex('00000000000000000000000000000000')
 
 aesCipher = Cipher(algorithms.AES(test_key),
                    modes.ECB(),
-                  )
+                   backend=default_backend())
