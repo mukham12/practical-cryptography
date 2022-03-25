@@ -25,3 +25,4 @@ aesCipher = Cipher(algorithms.AES(test_key),
                    backend=default_backend())
 
 aesEncryptor = aesCipher.encryptor()
+aesDecryptor = aesCipher.decryptor()
