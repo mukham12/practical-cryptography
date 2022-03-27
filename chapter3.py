@@ -27,4 +27,3 @@ aesCipher = Cipher(algorithms.AES(test_key),
 aesEncryptor = aesCipher.encryptor()
 aesDecryptor = aesCipher.decryptor()
 
-message = b''' '''
