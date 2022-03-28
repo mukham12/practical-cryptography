@@ -27,3 +27,5 @@ aesCipher = Cipher(algorithms.AES(test_key),
 aesEncryptor = aesCipher.encryptor()
 aesDecryptor = aesCipher.decryptor()
 
+for index, kat in enumerate(nist_kats):
+    pass
