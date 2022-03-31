@@ -30,3 +30,4 @@ aesDecryptor = aesCipher.decryptor()
 for index, kat in enumerate(nist_kats):
     plaintext, want_ciphertext = kat
     plaintext_bytes = bytes.fromhex(plaintext)
+    ciphertext_bytes = aesEncryptor.update(plaintext_bytes)
