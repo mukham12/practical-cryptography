@@ -34,7 +34,6 @@ for index, kat in enumerate(nist_kats):
     got_ciphertext = ciphertext_bytes.hex()
     
     result = "[PASS]" if got ciphertext == want_ciphertext else "[FAIL]"
-    print(f'Test {index}. Expected {want_ciphertext}. Got {got_ciphertext}. Result {result}.')
 
 
 message = b''''''
