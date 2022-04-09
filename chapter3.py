@@ -32,8 +32,6 @@ for index, kat in enumerate(nist_kats):
     plaintext_bytes = bytes.fromhex(plaintext)
     ciphertext_bytes = aesEncryptor.update(plaintext_bytes)
     got_ciphertext = ciphertext_bytes.hex()
-    
-    result = "[PASS]" if got ciphertext == want_ciphertext else "[FAIL]"
 
 
 message = b''''''
