@@ -28,7 +28,7 @@ aesEncryptor = aesCipher.encryptor()
 aesDecryptor = aesCipher.decryptor()
 
 for index, kat in enumerate(nist_kats):
-    plaintext, want_ciphertext = kat
+    pass
 
 
 message = b''''''
