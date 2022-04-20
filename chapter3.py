@@ -7,8 +7,6 @@ key = os.urandom(16)
 aesEncryptor = aesCipher.encryptor()
 aesDecryptor = aesCipher.decryptor()
 
-nist_kats = []
-
 # Alice and Bob's shared secret key
 test_key = bytes.fromhex('00000000000000000000000000000000')
 
