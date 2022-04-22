@@ -7,7 +7,7 @@ key = os.urandom(16)
 aesEncryptor = aesCipher.encryptor()
 aesDecryptor = aesCipher.decryptor()
 
-test_key = bytes.fromhex('00000000000000000000000000000000')
+test_key = bytes.fromhex('00112233445566778899AABBCCDDEEFF')
 
 aesCipher = Cipher(algorithms.AES(test_key),
                    modes.ECB(),
