@@ -24,3 +24,4 @@ DATE: 2001-1-11920
 Meet me today at the docks at 2300.'''
 
 message += b"E" * (-len(message) % 16)
+ciphertext = aesEncryptor.update(message)
