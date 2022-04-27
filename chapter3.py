@@ -3,6 +3,7 @@ from cryptography.hazmat.backends import default_backend
 import os
 
 key = os.urandom(32)
+iv = os.urandom(16)
 
 aesEncryptor = aesCipher.encryptor()
 aesDecryptor = aesCipher.decryptor()
