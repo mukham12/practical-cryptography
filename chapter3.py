@@ -11,7 +11,7 @@ aesDecryptor = aesCipher.decryptor()
 test_key = bytes.fromhex('00112233445566778899AABBCCDDEEFF')
 
 aesCipher = Cipher(algorithms.AES(test_key),
-                   modes.ECB(),
+                   modes.CBC(iv),
                    backend=default_backend())
 
 aesEncryptor = aesCipher.encryptor()
