@@ -17,9 +17,3 @@ aesCipher = Cipher(algorithms.AES(test_key),
 aesEncryptor = aesCipher.encryptor()
 aesDecryptor = aesCipher.decryptor()
 
-message = b'''
-FROM: FIELD AGENT ALICE
-TO: FIELD AGENT BOB
-RE: Meeting
-DATE: 2001-1-11920
-Meet me today at the docks at 2300.'''
