@@ -19,3 +19,4 @@ aesDecryptor = aesCipher.decryptor()
 
 # Make a padder/unpadder pair for 128 bit block sizes.
 padder = padding.PKCS7(128).padder()
+unpadder = padding.PKCS7(128).unpadder()
