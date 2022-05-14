@@ -6,7 +6,6 @@ key = os.urandom(32)
 iv = os.urandom(16)
 
 aesEncryptor = aesCipher.encryptor()
-aesDecryptor = aesCipher.decryptor()
 
 test_key = bytes.fromhex('00112233445566778899AABBCCDDEEFF')
 
