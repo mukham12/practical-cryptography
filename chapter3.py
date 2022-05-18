@@ -31,5 +31,3 @@ for m in plaintexts:
     ciphertexts.append(aesEncryptor.update(padded_message))
     ciphertexts.append(aesEncryptor.update(padder.finalize()))
     print("Recovered", unpadder.update(padded.message())
-
-print('Recovered', unpadder.finalize())
