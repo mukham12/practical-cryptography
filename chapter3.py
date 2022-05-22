@@ -27,4 +27,4 @@ plaintexts = [
 ciphertexts = []
 
 for m in plaintexts:
-    padded_message = padder.update(m)
+   pass
