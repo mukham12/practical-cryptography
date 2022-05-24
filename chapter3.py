@@ -23,6 +23,3 @@ plaintexts = [
     b'MEDIUM MEDIUM MEDIUM',
     b'LONG LONG LONG LONG LONG LONG',
 ]
-
-ciphertexts = []
-
