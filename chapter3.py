@@ -20,5 +20,4 @@ unpadder = padding.PKCS7(128).unpadder()
 
 plaintexts = [
     b'SHORT',
-    b'MEDIUM MEDIUM MEDIUM',
 ]
