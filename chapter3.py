@@ -18,4 +18,3 @@ aesDecryptor = aesCipher.decryptor()
 padder = padding.PKCS7(128).padder()
 unpadder = padding.PKCS7(128).unpadder()
 
-plaintexts = []
