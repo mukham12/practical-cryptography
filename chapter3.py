@@ -11,5 +11,4 @@ aesCipher = Cipher(algorithms.AES(test_key),
                    modes.CBC(iv),
                    backend=default_backend())
 
-aesEncryptor = aesCipher.encryptor()
 
