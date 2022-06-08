@@ -6,3 +6,6 @@ test_key = bytes.fromhex('00112233445566778899AABBCCDDEEFF')
 aesCipher = Cipher(algorithms.AES(test_key),
                    modes.EBC(),
                    backend=default_backend())
+
+class EncryptionManager:
+    pass
