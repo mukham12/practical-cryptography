@@ -10,3 +10,4 @@ aesCipher = Cipher(algorithms.AES(test_key),
 
 class EncryptionManager:
     self.key = os.urandom(32)
+    self.iv = os.urandom(16)
