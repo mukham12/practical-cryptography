@@ -7,7 +7,7 @@ class EncryptionManager:
     self.iv = os.urandom(16)
 
     def encrypt_message(self, message):
-        encryptor = Cipher(algorithms.AES(test_key),
+        encryptor = Cipher(algorithms.AES(self.key),
                            modes.EBC(),
                            backend=default_backend())
 
