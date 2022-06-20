@@ -8,6 +8,6 @@ class EncryptionManager:
 
     def encrypt_message(self, message):
         encryptor = Cipher(algorithms.AES(self.key),
-                           modes.EBC(),
+                           modes.CBC(self.iv),
                            backend=default_backend())
 
